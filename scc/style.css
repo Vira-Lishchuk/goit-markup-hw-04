@@ -161,12 +161,24 @@ img {
 
 /*-------------------Main--------- */
 .hero {
+  max-width: 1600px;
+  height: 600px;
   padding-bottom: 200px;
   padding-top: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: #c4c4c4;
+  border: 1px solid #000000;
   margin: auto;
   text-align: center;
-  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../image/herobackground.jpg");
 }
+
 .hero-title {
   margin-bottom: 30px;
   font-weight: 900;
@@ -198,11 +210,14 @@ img {
 .benefits {
   padding-top: 94px;
 }
+
 .benefits-title {
   display: flex;
+  justify-content: space-between;
+  padding-left: 0;
 }
 
-.benefits-title .item {
+.benefits-title .list-item {
   margin-right: 30px;
   width: 270px;
 }
@@ -210,9 +225,6 @@ img {
 .benefits-title-list {
   padding-top: 0;
   margin-bottom: 10px;
-
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.9;
@@ -221,14 +233,11 @@ img {
   color: var(--title-text-color);
 }
 
-.benefits-title .item:last-child {
+.benefits-title .list-item:last-child {
   margin-right: 0;
 }
 
 .benefits-content {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
