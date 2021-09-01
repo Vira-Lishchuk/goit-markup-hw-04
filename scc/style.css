@@ -210,6 +210,9 @@ img {
 .benefits {
   padding-top: 94px;
 }
+.benefits-icon {
+  marging: 100px, 25px;
+}
 
 .benefits-title {
   display: flex;
