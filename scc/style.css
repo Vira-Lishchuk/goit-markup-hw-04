@@ -304,6 +304,7 @@ img {
 
 .team {
   display: flex;
+  box-shadow: 0, 0, 4px, 4px rgba(0, 0, 0, 0.25);
 }
 
 .team-item {
@@ -312,7 +313,6 @@ img {
   border: 1px solid #eeeeee;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  box-shadow: 0, 0, 4px, 4px rgba(0, 0, 0, 0.25);
 }
 /* .team .team-item {
   flex-basis: calc(100% / 4-30px);
