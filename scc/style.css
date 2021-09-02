@@ -169,7 +169,9 @@ img {
 .contact-nav :focus {
   color: var(--accent-color);
 }
-
+.contacts-nav-item:hover .contacts-icon,
+.contacts-nav-item:focus .contacts-icon {
+  fill: var(--accent-color);
 /*-------------------Main--------- */
 .hero {
   max-width: 1600px;
