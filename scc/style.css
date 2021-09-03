@@ -37,6 +37,11 @@ body {
 .link {
   text-decoration: none;
 }
+
+.current {
+  color: var(--accent-color);
+}
+
 .page {
   color: var(--primary-text-color);
 }
